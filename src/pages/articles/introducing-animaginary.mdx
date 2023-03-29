@@ -1,0 +1,45 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Levi',
+  date: '2020-05-01',
+  title: 'get acquainted with python',
+  description:
+'I started my journey into the world of programming with Python'
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+As a beginner, I found Python to be an easy-to-learn and versatile language.
+I learned the basics of Python, including variables, data types, control structures, functions, and object-oriented programming.
+```js
+# declaring and assigning a variable
+x = 10
+
+# printing the variable
+print(x)
+
+# declaring a list and accessing its elements
+my_list = [1, 2, 3, 4, 5]
+print(my_list[2])
+
+# declaring a function that takes in two parameters and returns their sum
+def add_numbers(a, b):
+    return a + b
+
+# calling the function and printing the result
+result = add_numbers(3, 5)
+print(result)
+
+# declaring a class and creating an instance of it
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+person1 = Person("John", 25)
+print(person1.name)
+```
+
+This code declares a variable x and prints its value, declares a list my_list and prints the third element, declares a function add_numbers that takes in two parameters and returns their sum, calls the function and prints the result, declares a class Person with a constructor that takes in a name and an age, creates an instance of the class, and prints the person's name. These are some of the basic concepts of Python programming.
+(this is taken from chatGPT)

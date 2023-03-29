@@ -1,0 +1,57 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Levi',
+  date: '2021-06-01',
+  title: 'Learing C++',
+  description:
+'After gaining a solid foundation in Python, I decided to explore C++'
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+After gaining a solid foundation in Python, I decided to explore other programming languages. In 2021, I started learning C++, a powerful language used in a wide range of applications, from video games to operating systems.
+
+```c
+#include <iostream>
+using namespace std;
+
+int main() {
+  // declaring and assigning a variable
+  int x = 10;
+
+  // printing the variable
+  cout << x << endl;
+
+  // declaring an array and accessing its elements
+  int my_array[5] = {1, 2, 3, 4, 5};
+  cout << my_array[2] << endl;
+
+  // declaring a function that takes in two parameters and returns their sum
+  int add_numbers(int a, int b) {
+    return a + b;
+  }
+
+  // calling the function and printing the result
+  int result = add_numbers(3, 5);
+  cout << result << endl;
+
+  // declaring a class and creating an instance of it
+  class Person {
+    public:
+      string name;
+      int age;
+  };
+
+  Person person1;
+  person1.name = "John";
+  person1.age = 25;
+  cout << person1.name << endl;
+
+  return 0;
+}
+
+```
+
+This code includes the iostream library and declares a main function, which declares a variable x and prints its value, declares an array my_array and prints the third element, declares a function add_numbers that takes in two parameters and returns their sum, calls the function and prints the result, declares a class Person with a public name and age variable, creates an instance of the class, assigns values to its variables, and prints the person's name. These are some of the basic concepts of C++ programming. Very boring!
+(Get it online)
